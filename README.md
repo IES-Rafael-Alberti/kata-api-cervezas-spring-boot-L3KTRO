@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/um2scOsx)
 > **Note**
 > Si alguien quiere usar docker, docker-compose, adelante.
 > Pero ahora mismo no es nuestro objetivo.
@@ -68,20 +69,20 @@ Ir más lejos
 
 ## Descripción de rutas a utilizar
 
-| Endpoint         | Resultado                               | Método   |
-|----------------- |-----------------------------------------|:--------:|
-|`/beers`          | Muestra todas las cervezas              | GET      |
-|`/beer`           | Añadir una cerveza                      | POST     |
-|`/beer/{id}`      | Mostrar la cerveza con el id `{id}`     | GET      |
-|`/beer/{id}`      | Eliminar una cerveza                    | DELETE   |
-|`/beer/{id}`      | Modificar una cerveza                   | PUT      |
-|`/beer/{id}`      | Modificar parcialmente una cerveza      | PUT o PATCH    |
-|`/breweries`      | Listar todas las cerveceras             | GET      |
-|`/brewerie/{id}`  | Mostrar la cervecera `{id}`             | GET      |
-|`/categories`     | Listar todas las categorías             | GET      |
-|`/categorie/{id}` | Mostrar la categoría `{id}`             | GET      |
-|`/styles`         | Listar todos los estilos -style-        | GET      |
-|`/style/{id}`     | Mostrar el estilo -style- `{id}`        | GET      |
+| Endpoint          | Resultado                           |   Método    |
+|-------------------|-------------------------------------|:-----------:|
+| `/beers`          | Muestra todas las cervezas          |     GET     |
+| `/beer`           | Añadir una cerveza                  |    POST     |
+| `/beer/{id}`      | Mostrar la cerveza con el id `{id}` |     GET     |
+| `/beer/{id}`      | Eliminar una cerveza                |   DELETE    |
+| `/beer/{id}`      | Modificar una cerveza               |     PUT     |
+| `/beer/{id}`      | Modificar parcialmente una cerveza  | PUT o PATCH |
+| `/breweries`      | Listar todas las cerveceras         |     GET     |
+| `/brewerie/{id}`  | Mostrar la cervecera `{id}`         |     GET     |
+| `/categories`     | Listar todas las categorías         |     GET     |
+| `/categorie/{id}` | Mostrar la categoría `{id}`         |     GET     |
+| `/styles`         | Listar todos los estilos -style-    |     GET     |
+| `/style/{id}`     | Mostrar el estilo -style- `{id}`    |     GET     |
 
 
 ## Colaboradores (idiomas en orden alfabético)
